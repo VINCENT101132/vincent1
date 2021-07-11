@@ -6,3 +6,11 @@ Show:Please input temperature:"
 Input1:40
 Output:It's too hot.
 """
+
+temperature=int(input("請輸入溫度"))
+if temperature>=40:
+  print("It is too hot")
+elif temperature<=10:
+  print('It is too cold')
+else:
+  print('comfortable')
