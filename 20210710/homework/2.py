@@ -25,7 +25,7 @@ short=int(input('請輸入三角形最短邊'))
 long=int(input('請輸入三角形最長邊'))
 middle=int(input('請輸入剩下的三角形邊'))
 
-if (short+middle)>long and long>middle>short>0:
+if (short+middle)>long and long>=middle>=short>0:
   p = (short+middle+long)/2
   area =str( (p * (p - short) * (p - middle) * (p - long)) ** 0.5)
   print("周長="+str(p*2))
