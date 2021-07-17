@@ -15,3 +15,12 @@ output:
 15
 18
 """
+
+a=int(input('請輸入整數'))
+b=1
+while b<=a:
+  if (b%3)==0:
+    print(b)
+  elif (b%7)==0:
+    print(b)
+  b+=1
