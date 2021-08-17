@@ -126,3 +126,5 @@ while True:
     print('Game Over')
     break'''
 
+for a in range(5):
+  print(' '*(4-a)+'*'*(a+1))
